@@ -1,0 +1,630 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.titleDiv{
+    padding: 30px 100px;
+    background-color: #e2f2f7;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+}
+
+.navs{
+    background-color: #e2f2f7;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+
+
+.free{
+    background-color: #e2f2f7;
+}
+
+.drop:hover{
+    text-decoration: none;
+    background-color:#e2f2f7 ;
+    color: black;
+}
+.drop:focus{
+    outline:none;
+    
+    color:"black";
+}
+.titleContent{
+    /* margin-left: 120px;
+    margin-top: 20px; */
+    margin: 60px 0px 20px 100px;
+}
+.t1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.t2{
+    color: rgb(40, 182, 238);
+}
+
+.imgDiv{
+    position: absolute;
+    top:100px;
+    left: 700px;
+    width: 680px;
+    height: 500px;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 20px 20px 20px rgb(143, 143, 143 ,0.6);
+}
+
+.washImages{
+    width: 100%;
+    height: 100%;
+}
+
+.bookActionBtn{
+    border: none;
+    border-radius: 0.4rem;
+    padding: 8px 25px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.bookActionBtn:hover{
+    transform:scale(1.1)
+}
+
+.bookActionBtn:focus{
+    outline: none;
+}
+
+.rightArw{
+    margin-left: 8px;
+    color: rgb(40, 182, 238);
+}
+
+.div2{
+   
+    margin: 150px 0px 100px 200px;
+}
+
+.p1{
+    margin-bottom: 4px;
+}
+
+.p2{
+    font-size: 2.2rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.callIcon{
+    width: 90px;
+    height: 80px;
+    background-color: #e2f2f7;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin-bottom: 12px;
+    /* padding: 10px; */
+}
+
+.ic1{
+    margin-top: 16px;
+    color: rgb(40, 182, 238);
+}
+
+.d1{
+    font-size: 1.1rem;
+    font-weight: 640;
+}
+
+.description{
+    padding-right: 70px;
+}
+
+.priceingTitle{
+    display: flex;
+    width: 1900px;
+    height: auto;
+    margin: 0px auto;
+    /* justify-content: center; */
+}
+
+.priceingParent{
+    padding: 90px 200px 130px 200px;
+    background-color: rgb(18, 18, 139);
+    position: relative;
+}
+
+.c1{
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.priceDescription {
+    /* padding-top: 18px;
+    padding: 18px 80px 0px 0px; */
+    width: 900px;
+}  
+
+.priceingTitle{
+    width: 1000px;
+    margin-bottom: 30px;
+}
+
+.c2{
+    padding: 20px 10px 15px 100px;
+    color: rgb(255, 255, 255 , 0.7);
+}
+
+.orderParent{
+    width: 1100px;
+    margin: 20px auto;
+    position: absolute;
+    border-radius: 0.5rem;
+    padding: 60px;
+    background-color: white;
+    box-shadow:  25px 25px 25px rgb(41, 40, 40 , 0.2);
+}
+
+.o1{
+    font-size: 2.5rem;
+    margin-bottom: 4px;
+    font-weight: bold;
+    color:rgb(40, 182, 238) ;
+}
+
+.o2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.orderRow{
+    /* padding-left: 40px; */
+    padding-right: 0px;
+    border-right: 1px solid rgb(221, 221, 221);
+}
+
+.orderRow2{
+    padding-right: 55px;
+    padding-left: 55px;
+    border-right: 1px solid rgb(221, 221, 221);
+}
+
+.orderRow3{
+    padding-left: 55px;
+}
+
+.bookBtn{
+    border: none;
+    border-radius: 0.4rem;
+    padding: 8px 25px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all 0.2s linear; 
+    box-shadow: 4px 4px 4px rgb(97, 97, 97, 0.4);
+}
+
+.bookBtn:hover{
+    background-color: rgb(40, 182, 238);
+    transform:scale(1.1)
+}
+
+/* APPOINTMENT FORM */
+
+.formTop{
+    padding: 30px;
+    
+    background-color: rgb(18, 18, 139);
+}
+
+.formTitle{
+    width: 800px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.formDetails{
+    width: 800px;
+    margin: 40px auto;
+    padding: 50px  30px;
+    background-color:#e2f2f7;
+    border-radius: 0.4rem;
+    box-shadow: 10px 10px 10px rgb(194, 194, 194 , 0.5);
+}
+
+.actualForm{
+    padding: 0px 140px;
+}
+
+.formName{
+    font-family:'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 15px;
+}
+
+.contactDetails{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 50px;
+    padding: 0px 0px 5px 20px;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 4px 4px 4px rgb(194, 194, 194 , 0.5);
+}
+
+.contactDetails:focus{
+    outline: none;
+}
+
+.contactDetailsTextArea{
+    width: 100%;
+    height: 120px;
+    padding: 15px 0px 0px 20px;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 4px 4px 4px rgb(194, 194, 194 , 0.5);
+}
+
+.contactDetailsTextArea:focus{
+    outline: none;
+}
+
+.opt1{
+    color: rgb(226, 226, 226);
+}
+
+.formDateTime{
+    margin-bottom: 30px;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 4px 4px 4px rgb(194, 194, 194 , 0.5);
+}
+
+.bookBtn:focus{
+    outline:none;
+}
+
+/* booking css */
+
+.bookdiv1{
+    width: 800px;
+    margin: 10px auto;
+    padding-top: 100px;
+}
+
+.bookBtn2{
+    border: none;
+    border-radius: 0.4rem;
+    padding: 8px 25px;
+    background-color:rgb(18, 18, 139);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.2s linear; 
+    box-shadow: 4px 4px 4px rgb(97, 97, 97, 0.4);
+}
+
+
+.bookBtn2:hover{
+    transform:scale(1.1)
+}
+
+.bookBtn2:focus{
+    outline: none;
+}
+
+
+.bookAppointTitle{
+    font-family:'Oswald', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 20px;
+    /* color: rgb(212, 211, 211); */
+}
+
+.bk2{
+    margin-bottom: 20px;
+}
+
+.bk3{
+    margin-bottom: 8px;
+    color: rgb(163, 162, 162);
+    font-weight: 450;
+}
+
+.free:focus{
+    color: black;
+    box-shadow: none;
+    outline: none;
+    /* background-color: black; */
+}
+
+.workedBrands{
+    margin-top: 600px;
+}
+
+.brandName{
+    width: 250px;
+    height: 150px;
+    margin: 0px auto;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.servicBrands{
+    width: 600px;
+    text-align: center;
+    margin: 0px auto 70px auto;
+    padding-top: 50px;
+
+}
+
+.sr1{
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer{
+    padding: 80px 0px 40px 0px;
+    margin-top: 140px;
+    background-color:rgb(18, 18, 139) ;
+}
+
+.footer1{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.aboutDiv{
+    padding-right: 50px;
+}
+
+.desp{
+    padding: 0px 10px 15px 0px;
+}
+
+.needHelpDiv{
+    padding-left: 40px;
+}
+
+.footerIcons{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.footer2{
+    margin-bottom: 0px;
+    padding-left: 20px;
+    color: rgb(255, 255, 255 , 0.7);
+}
+
+.ficon{
+    margin-top: 8px;
+    color: rgb(40, 182, 238);
+}
+
+
+
+
+/* media-queries */
+
+@media(max-width: 1400px){
+    .titleContent{
+        margin-left: 0px;
+    }
+
+    .imgDiv{
+        left: 500px;
+        width: 500px;
+        height: 400px;
+        top: 90px;
+    }
+
+    .div2{
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
+    .orderRow2,  .orderRow3{
+        padding-left: 20px;
+    }
+
+    .orderParent{
+        position: relative;
+        width: 100%;
+    }
+
+    .priceingParent{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .workedBrands{
+        margin-top: 60px;
+    }
+
+    .priceDescription{
+        width: 500px;
+    }
+
+    .priceingTitle{
+        width:100%
+    }
+
+    .c1{
+        margin-top: 35px;
+    }
+
+    .orderRow{
+        margin-bottom: 15px;
+    }
+
+    .orderRow2{
+        padding-left: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width:1050px){
+    .imgDiv{
+        width:400px;
+        height: 350px;
+        top: 110px;
+    }
+    .servicBrands{
+        width: 100%;
+    }
+
+    .titleDiv{
+        padding-left: 40px;
+    }
+
+    .div2{
+        margin-left: 40px;
+    }
+
+    .c2{
+        padding: 50px 10px 15px 0px;
+    }
+}
+
+@media(max-width:990px){
+    .needHelpDiv{
+        padding-left: 15px;
+        margin-bottom: 30px;
+    }
+
+    .footerIcons{
+        margin-left: 0px;
+    }
+
+    .aboutDiv{
+        margin-bottom: 30px;
+    }
+
+    .brandName{
+        margin-bottom: 30px;
+    }
+
+    .imgDiv{
+        width: 350px;
+        height: 250px;
+        top: 150px;
+        left: 420px;
+    }
+
+    .orderRow2{
+        margin-bottom: 50px;
+    }
+
+    .orderRow{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:800px){
+    .imgDiv{
+        display: none;
+    }
+
+    .formTitle{
+        width: 100%;
+    }
+
+    .formDetails{
+        width: 100%;
+    }
+
+    .bookdiv1{
+        width: 500px;
+    }
+}
+
+@media (max-width:450px){
+    .priceingTitle{
+        display: block;
+    }
+
+    .priceDescription{
+        width: 100%;
+    }
+
+    .orderParent{
+        padding: 20px 0px;
+    }
+
+    .titleDiv{
+        padding-left: 15px;
+    }
+
+    .div2{
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+
+    .description{
+        padding-right: 20px;
+    }
+
+    .bookdiv1{
+        width: 100%;
+    }
+}
+
+@media(max-width:870px){
+    .priceingParent{
+        padding: 50px 20px;
+    }
+
+    .priceingTitle{
+        display: block;
+    }
+
+    .c2{
+        padding-top: 15px;
+    }
+
+    .orderRow2{
+        padding-right: 15px;
+    }
+}
+
+@media(max-width:300px){
+    .c1{
+        font-size: 2rem;
+    }
+
+    .brandName{
+        width: 150px;
+        height: 100px;
+    }
+
+    .formDetails{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width:660px){
+    .actualForm{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}

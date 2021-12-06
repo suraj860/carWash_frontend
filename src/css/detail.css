@@ -1,0 +1,41 @@
+
+.navbars{
+    background-color: #E6F4F1;
+}
+
+.ulItems{
+    position: absolute;
+    right: 0;
+    margin-right: 25px;
+}
+
+.ulLi{
+    margin-right: 20px;
+    margin-top: 4px;
+}
+
+.ulLis{
+    margin-right: 20px;
+}
+
+.uliBtn{
+    border: none;
+    cursor: pointer;
+    background-color: #E6F4F1;
+}
+
+.uliBtn:focus{
+    outline: none;
+}
+
+.logBtnToggler{
+    border: none;
+    background-color: #E6F4F1;
+    color: black;
+}
+
+.logBtnToggler:hover{
+    background-color: #E6F4F1;
+    color: black;
+    
+}
